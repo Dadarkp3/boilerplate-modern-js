@@ -7,7 +7,8 @@
     "build": "webpack --config ./webpack/webpack.prod.js",
     "start": "webpack serve --open --config ./webpack/webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint src/*.js"
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "Daiane Mascarenhas <adm.daianesilva@gmail.com>",
